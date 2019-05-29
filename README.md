@@ -5,6 +5,10 @@ Analyzes twitter data and determines which timezone is the "happiest" using file
 ## Prerequisites
 PyCharm
 
+## Notable Files
+tweets.txt etc.. contain tweets from the US
+key1.txt etc.. contains the keywords and their happiness score
+
 ## How Program Works
 The Twitter data contains comments from individuals about how they feel about their
 lives and comes from individuals across the continental United States.This program analyzes each individual tweet to determine a score – a “happiness score”. The program stores the happiness score into a group then finds the sum of the scores and compares the sums to find the "happiest" timezone.
